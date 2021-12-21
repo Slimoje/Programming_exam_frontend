@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../global/global.css">
+    <title>Stemmer</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <a href="../index/index.html">
+                <img id="logo" src="../index/homebutton.png" style="width: 40px; height: 40px;" alt="index-button">
+            </a>
+
+            <a class="nav-option" id="nav-parties" href="../parties/parties.html" style="position: relative; left: 50px">Partier</a>
+
+            <a class="nav-option" id="nav-candidates" href="../candidates/candidates.html" style="position: relative; left: 80px">Kandidater</a>
+
+            <a class="nav-option" id="nav-votes" href="../votes/votes.html" style="position: relative; left: 110px">Stemme opgørelse</a>
+        </ul>
+    </nav>
+
+    <h1 class="headline">Opgørelsen af stemmer:</h1>
+
+    <table id="votes-table" border="2px">
+        <thead>
+            <tr>
+                <td>Parti</td>
+                <td>Stemmer</td>
+                <td>Procentdel</td>
+            </tr>
+        </thead>
+        <tbody id="vote-table-body">
+            <tr>
+                <td>Socialdemokratiet</td>
+                <td id="a-votes"></td>
+                <td id="a-percentage"></td>
+            </tr>
+            <tr>
+                <td>Det konservative Folkeparti</td>
+                <td id="c-votes"></td>
+                <td id="c-percentage"></td>
+            </tr>
+            <tr>
+                <td>Socialistisk Folkeparti</td>
+                <td id="f-votes"></td>
+                <td id="f-percentage"></td>
+            </tr>
+            <tr>
+                <td>Dansk Folkeparti</td>
+                <td id="o-votes"></td>
+                <td id="o-percentage"></td>
+            </tr>
+            <tr>
+                <td>Venstre</td>
+                <td id="v-votes"></td>
+                <td id="v-percentage"></td>
+            </tr>
+            <tr>
+                <td>Enhedslisten</td>
+                <td id="ø-votes"></td>
+                <td id="ø-percentage"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script src="./votes.js"></script>
+</body>
+</html>

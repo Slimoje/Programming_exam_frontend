@@ -1,0 +1,32 @@
+body {
+    background-color: #daefff;
+}
+
+.party-name {
+    font-size: 25px;
+}
+
+.nav-option {
+    font-size: 35px;
+    color: #000356;
+}
+
+#votes-table {
+    font-size: 40px;
+    position: center;
+}
+
+#headline {
+    font-size: 40px;
+    text-align: center;
+}
+
+#candidate-table {
+    font-size: 25px;
+    text-align: center;
+}
+
+#party-candidate-table {
+    font-size: 25px;
+}
+

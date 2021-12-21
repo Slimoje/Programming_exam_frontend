@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../global/global.css">
+    <title>Velkommen</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <a href="../index/index.html">
+                <img id="logo" src="../index/homebutton.png" style="width: 40px; height: 40px;" alt="index-button">
+            </a>
+
+            <a class="nav-option" id="nav-parties" href="../parties/parties.html" style="position: relative; left: 50px">Partier</a>
+
+            <a class="nav-option" id="nav-candidates" href="../candidates/candidates.html" style="position: relative; left: 80px">Kandidater</a>
+
+            <a class="nav-option" id="nav-votes" href="../votes/votes.html" style="position: relative; left: 110px">Stemme opgørelse</a>
+        </ul>
+    </nav>
+
+    <h1 class="headline" id="party-header"></h1>
+
+    <table id="party-candidate-table" border="1px">
+        <thead>
+            <tr>
+                <td>Fornavn</td>
+                <td>Efternavn</td>
+                <td>Antal stemmer</td>
+            </tr>
+        </thead>
+        <tbody id="party-candidates-tbody">
+
+        </tbody>
+    </table>
+
+    <script src="../lib/HTMLEscape.js"></script>
+    <script src="party.js"></script>
+</body>
+</html>
